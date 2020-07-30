@@ -1,0 +1,138 @@
+body {
+    margin: auto;
+    padding: 50px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* ---- Set up site grid ---- */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "banner banner"
+        "side main"
+        "footer footer";
+        grid-gap: 4px;
+    
+}
+
+/* ---- End of grid setup ---- */
+
+
+/* -000- Area styling -000- */
+
+.box {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Area colouring... */
+
+/* logo, banner and footer background are the same */
+.logo, .banner, .footer {
+    background-color: #003554;  /* dark blue */
+}
+
+/* Set font on dark areas to light blue*/
+.logo, .banner, .side, .footer {
+    color: #fff;
+}
+
+/* Area specifics */
+
+.logo {
+    padding: 0;
+    float: left;
+    
+}
+
+.banner {
+    grid-area: banner;
+}
+
+
+.main {
+    grid-area: main;
+    background-color: #00A6FB;  /* pale blue */
+    border: solid 1px #CCC;
+}
+
+.side {
+    color: black;
+    background-color: #006494; 
+    
+}
+
+.footer {
+    grid-area: footer;
+    text-align: right;
+}
+
+/* -000- End of area styling -000- */
+
+h1, h2, h3, h4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Navigation Links */
+.nav a {font-weight: bold;}
+.nav a:link, .nav a:visited {color: #AA0000;} /*dark red */
+.nav a:hover {color: #604830; text-decoration: none;} /* chocolate brown */
+
+
+/* Side Links */
+a.side{font-weight: bold; text-decoration: none;}
+a.side:link, a.side:visited {color: #2EBFA5} /* Turquoise */
+a.side:hover {color: #84DCCF;} /* Bright cyan */
+
+/* links in page */
+a {font-weight: bold;}
+a:link{color: #AA0000;} /*dark_red */
+a:visited{color: #111177;} /* dark blue */
+a:hover{color: #000;}    /* Black*/
+
+
+/* Contact Form Styling */
+.contact {
+    width: 100%;
+}
+
+
+.img-circle {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8);     
+}
+
+.center_image {
+    text-align: center;
+}
+
+/* Sub Heading Formatting */
+.sub_heading {
+    font-family: 'Ubuntu', sans-serif;
+    color: #593849; /* purple */
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
