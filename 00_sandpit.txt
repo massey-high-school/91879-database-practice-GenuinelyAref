@@ -1,0 +1,1 @@
+echo $showall_rs['Rating'];

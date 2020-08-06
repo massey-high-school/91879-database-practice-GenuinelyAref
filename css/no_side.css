@@ -102,10 +102,6 @@ a:hover{color: #000;}    /* Black*/
 }
 
 
-.img-circle {
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8);     
-}
-
 .center_image {
     text-align: center;
 }
@@ -118,21 +114,26 @@ a:hover{color: #000;}    /* Black*/
 }
 
 
+/* Error Box formatting */
+.error {
+    background-color: #ffe0ed; /* pale pink */
+    border: 2px solid #8a1737; /* dark red border */
+    color: #8a1737; /* dark red */
+    border-radius: 5px;
+    padding: 20px;
+}
 
 
+/* Results Box Formatting */
+.results {
+    background-color: #f4ebe1;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 5px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* form formatting */
+.search {
+    width: 200px;
+}
