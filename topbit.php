@@ -50,7 +50,7 @@
         <!-- logo image linking to home page goes here -->
         <a href="index.php">
             <div class="logo"  title="Logo - Click here to go to the Home Page">
-            <img class="img-circle" src="Images/Book%20image.png" width="150" height="150" alt="Book logo" border-radius= "10px"/>
+            <img class="img-circle" src="Images/Book%20image.png" width="100" height="100" alt="Book logo" border-radius= "10px"/>
             
             </div>    <!-- / logo -->
         </a>
