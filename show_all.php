@@ -45,18 +45,47 @@ $count=mysqli_num_rows($showall_query);
 
         <p>Genre: <span class="sub_heading"><?php echo $showall_rs['Genre']; ?></span></p>
 
-        <p>Rating: <span class="sub_heading">
+        <p>Rating: 
+            <span class="sub_heading">
             
-            <?php 
-            for ($x=0; $x < $showall_rs['Rating']; $x++)
+            <!-- Font Awesome Icon Library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                 
-            {
-                 echo "&#9733;";
-            }
-            
+            <?php 
+                
+            if ( $showall_rs['Rating'] ==5)
+                {
             ?>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            <?php   }
             
-        </span></p>
+            else if ( $showall_rs['Rating'] ==4)
+                {
+            ?>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            <?php   }
+            
+            else if ( $showall_rs['Rating'] ==3)
+                {
+            ?>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            <?php   }   ?>
+                
+                
+            </span>
+        </p>
 
         <p><span class="sub_heading">Review / Response</span></p>
 

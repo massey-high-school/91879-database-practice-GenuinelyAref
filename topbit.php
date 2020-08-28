@@ -35,7 +35,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lato%7cUbuntu" rel="stylesheet"> 
     
     <!-- Edit the name of your style sheet - 'foo' is not a valid name!! -->
-    <link rel="stylesheet" href="css/no_side.css"> 
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/no_side.css" rel="stylesheet"> 
+    
+    <!-- Custom website icon (favicon) -->
+    <link href="Images/Book%20image.png" rel="icon" type="image/icon">
     
 </head>
     
@@ -50,7 +54,7 @@
         <!-- logo image linking to home page goes here -->
         <a href="index.php">
             <div class="logo"  title="Logo - Click here to go to the Home Page">
-            <img class="img-circle" src="Images/Book%20image.png" width="100" height="100" alt="Book logo" border-radius= "10px"/>
+                <img class="img-circle" src="Images/Book%20image.png" width="100" height="100" alt="Book logo"/>
             
             </div>    <!-- / logo -->
         </a>
@@ -73,19 +77,18 @@
                 
                 <input class="search" type="text" name="title" size="40" value="" required placeholder="Title..." />
                 
-                <input class="submit" type="submit" name="find_title" value="Search" />
+                <input class="submit" type="submit" name="find_title" value="&#xf002;" />
             
             </form>
             <!-- End of Title Search -->
-            
-            <hr />
+
             
             <!-- Start of Author Search -->
             <form method ="post" action="author_search.php" enctype="multipart/form-data">
                 
                 <input class="search" type="text" name="author" size="40" value="" required placeholder="Author..." />
                 
-                <input class="submit" type="submit" name="find_author" value="Search" />
+                <input class="submit" type="submit" name="find_author" value="&#xf002;" />
             
             </form>
             <!-- End of Author Search -->
@@ -95,7 +98,7 @@
             <!-- Start of Genre Search -->
             <form method ="post" action="genre_search.php" enctype="multipart/form-data">
                 
-                <select name="genre" required>
+                <select name="genre" required class="search">
                     <option value="" disabled selected>Genre...</option>
                     <?php
                     // retrieve unique values in genre column..
@@ -120,7 +123,7 @@
                                         
                 </select>
                 
-                <input class="submit" type="submit" name="find_genre" value="Search" />
+                <input class="submit" type="submit" name="find_genre" value="&#xf002;" />
                 
                 
             
@@ -143,12 +146,12 @@
                 <select class="half_width" name="stars">
                     <option value=1>&#9733;</option> 
                     <option value=2>&#9733;&#9733;</option> 
-                    <option value=3>&#9733;&#9733;&#9733;</option> 
+                    <option value=3 selected>&#9733;&#9733;&#9733;</option> 
                     <option value=4>&#9733;&#9733;&#9733;&#9733;</option> 
                     <option value=5>&#9733;&#9733;&#9733;&#9733;&#9733;</option> 
                 </select>
                         
-                <input type="submit" class="submit" name="find_rating" value="Search" />
+                <input type="submit" class="submit" name="find_rating" value="&#xf002;" />
                 
                 
             </form>

@@ -78,6 +78,11 @@ h1, h2, h3, h4 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+/* Website logo padding */
+.img-circle {
+    padding: 0 20px 0 0;
+}
+
 /* Navigation Links */
 .nav a {font-weight: bold;}
 .nav a:link, .nav a:visited {color: #AA0000;} /*dark red */
@@ -132,8 +137,60 @@ a:hover{color: #000;}    /* Black*/
     padding: 5px;
 }
 
+form {
+    width: 250px;
+    margin: 5px;
+}
 
 /* form formatting */
 .search {
-    width: 200px;
+    width: 160px;
+    padding: 8px 15px;
+    background: #fff;
+}
+
+.submit {
+    font-family: FontAwesome;
+    position: relative;
+    width: 45px;
+    left: -1px;
+    background-color: #636363;
+    color: #d6d6d6;
+    border: 1px solid #636363;
+    border-radius: 0 5px 5px 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #000;
+}
+
+input {
+    height: 40px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.half_width {
+    width: 80px;
+}
+
+/* rating stars formatting */
+.checked {
+  color: orange;
+}
+
+select {
+    outline: 0;
+    height: 40px;
+    border: 1px solid #ccc;
+    color: #878787;
+    width:  200px;
+}
+
+
+/* Dropdown menu options formatting */
+.select option {
+    height: 30px;
 }

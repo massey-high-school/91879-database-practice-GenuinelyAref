@@ -3,18 +3,18 @@
 ?>
         
         <div class="box main">
-            <h2>First Page heading</h2>
+            <h2>Book Review Database</h2>
             
             <p>
-                Sugar plum powder dessert bonbon powder lollipop lollipop muffin I love. Tiramisu dessert I love sugar plum apple pie marzipan chocolate bar brownie. Pudding tiramisu caramels biscuit tiramisu. I love gummies gummies pie sweet pudding I love I love. Donut halvah candy oat cake donut. Caramels wafer danish jelly-o.
+                <br />Thank you for using my Epic Reading Book Review website!
             </p>
             
             <p>
-                Jelly beans gingerbread jelly tootsie roll. Lemon drops bear claw I love tiramisu candy canes cake. Jelly-o apple pie powder tart I    love candy tiramisu. Topping liquorice cake sesame snaps brownie. Lemon drops jelly beans brownie danish I love fruitcake cotton candy danish. Dragée pastry halvah macaroon I love chocolate bar caramels liquorice. Halvah cupcake muffin fruitcake pastry I love bear claw I love jelly. Tart chocolate bar croissant danish jelly. Sugar plum powder cupcake muffin gingerbread I love sweet.
+                Here you will be able to search book reviews by title, author, genre and rating. Please use the sidebar on the left to search for books. While creating this outcome, I didn't focus very much on the visual appeal of the front-end interface, as it's only a tool to display the content of my database and wasn't as essential as completing my queries correctly.
             </p>
             
             <p>
-                Biscuit jelly I love jelly-o candy canes chupa chups topping lemon drops I love. Sesame snaps macaroon lemon drops carrot cake I love. Chocolate bar gingerbread chupa chups. Dessert chocolate pastry liquorice tootsie roll lemon drops sweet macaroon liquorice. I love muffin bonbon. Cupcake apple pie chocolate cake bonbon topping. Macaroon gummi bears dragée caramels donut chocolate.
+                There is currently no feedback form for this website, though chances are you are viewing this website per my request or to mark it as a teacher. Either way I'd love for you to get back to me with feedback (which I'm sure you'll have plenty of) on how to improve my website interface/data processing via my school email - unavailable here for security precautions.
             </p>
             
         </div>    <!-- / main -->
